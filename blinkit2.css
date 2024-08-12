@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+.nav{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 99%;
+    padding-right: 80px;
+    background-color: white;
+    border-bottom: 0.1px solid rgb(241, 234, 234) ;
+    border-width: .8px;
+}
+.logo{
+    border-right: 0.5px solid rgb(241, 234, 234) ;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 160px;
+}
+.profile,.cart{
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgba(24, 23, 23, 0.836);
+    width: 250px;
+}
+.profile{
+    padding-right: 20px;
+}
+.cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 80px;
+    height: 52px;
+    background-color: rgb(12, 131, 31);
+    color: white;
+    border-radius: 8px;
+}
+.delivery{
+    display: block;
+    justify-content: right;
+}
+.delivery h2{
+    font-weight: 700;
+    font-size: 18px;
+}
+.delivery select{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.search input{
+    width: 700px;
+    height: 45px;
+    padding-left: 45px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+.search img{
+    position: relative;
+    left: 35px;
+    top: 4px;
+    height: 18px;
+}
+input::placeholder{
+    color: gray;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: 90px;
+}
+.banner1 img{
+    height: 230px;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    width: 80%;
+    padding-left: 150px;
+    overflow: hidden;
+    top: 90px;
+}
+.banner2 img{
+    height: 200px;
+    padding-right:15px;
+
+}
+.items{
+    display: grid;
+    position: relative;
+    top: 90px;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px 110px 110px 110px;
+    justify-content: space-evenly;
+    width: 84%;
+    padding-top: 17px;
+    padding-left: 120px;
+
+}
+.items img{
+    height: 180px;
+    /* width: 130px; */
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 120px;
+    padding: 0 20px;
+}
+
+.footer-section1{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    right: 30px;
+
+}
+.footer-section2 {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    right: 65px;
+}
+.text{
+    position: relative;
+    left: 120px;
+}
+
+.text h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-section1 ul {
+    font-size: 16px;
+    list-style: none;
+    padding: 0px 30px
+}
+.footer-section2 ul{
+    font-size: 15px;
+    list-style: none;
+    width: 200px;
+    padding: 0px 30px
+}
+
+.footer-section1 ul li {
+    margin-bottom: 10px;
+    color: #717171;
+}
+.footer-section2 ul li {
+    margin-bottom: 10px;
+    color: #717171;
+}
+
+.text span {
+    font-size: 16px;
+    color: green;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.footer-section1{
+    flex:1;
+}
+.footer-section2{
+ flex: 2;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    position: relative;
+    top: 200px;
+    /* padding-left: px; */
+}
+.icons{
+    display: flex;
+    height: 40px;
+}
+.icons img{
+    padding-left: 10px;
+}
+.copyright{
+    font-size: 13px;
+    color: #666666;
+    width: 31%;
+}
+.downloads{
+    align-items: center;
+    color: #666666;
+    font-weight: 100;
+    display: flex;
+}
+.downloads img{
+    height: 30px;
+    padding-left: 10px;
+    
+}
+.desc{
+    position: relative;
+    top: 240px;
+    color: #666666;
+    width: 80%;
+    font-size: 14.5;
+    padding-left: 140px;
+    padding-bottom: 30px;
+}

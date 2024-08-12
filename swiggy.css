@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+.logo>img{
+    width: 60px;
+    height: 60px;
+}
+.logo_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.navb{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.selections{
+    display: flex;
+    color: grey;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+.selections b{
+    font-weight: lighter;
+}
+.sw1:hover{
+    fill: orange;
+    color: orange;
+}
+
+.sw1 sup{
+    color: orange;
+    fill: orange;
+}
+.location select{
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.location select:hover{
+    color: orange;
+}
+.list_foods img{
+    height:180px;
+
+}
+.list_foods{
+    display: flex;
+    overflow:hidden;
+    width:100%;
+}
+.food1,.food2{
+    padding:0px 280px;
+    width:70%;
+    background-color: whitesmoke;
+}
+
+.food2 ul{
+    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.food2 li{
+    list-style: none;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.food_item1{
+    background-image:url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7);
+    height:130px;
+    width:200px;
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+}
+
+.food_item1 h3{
+    position: relative;
+    top: 110px;
+}
+
+.food_3{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    padding: 0px 200px;
+    width: 70%;
+    background-color: whitesmoke;
+}
+.card1{
+    margin: 20px 0px;
+}
+
+
